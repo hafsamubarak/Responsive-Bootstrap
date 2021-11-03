@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html, body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Verdana,sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  z-index: 1;
+}
+
+.container-fluid .sec1 {
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.container-fluid .sec1 article {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.container-fluid .sec1 article i {
+  font-size: 1.5rem;
+}
+
+.container-fluid .sec1 article i ul {
+  display: none;
+  z-index: 2;
+  list-style-type: none;
+  text-align: left;
+}
+
+.container-fluid .sec1 article i ul li {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container-fluid .sec1 article i ul li li:hover {
+  background-color: #C8C8C8;
+}
+
+.container-fluid .sec1 article i ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.container-fluid .sec1 article h2 {
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.sec1 i:hover {
+  cursor: pointer;
+}
+
+.sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.sec2 .card {
+  margin-bottom: 10px;
+  width: 15rem;
+}
+
+.sec3 {
+  margin-top: 50px;
+}
+
+.sec3 ul {
+  justify-content: center;
+}
+
+.sec3 ul a {
+  color: #000;
+}
+
+.sec3 ul a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#about, #about2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border-top: 1px solid #eee;
+}
+
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec4 h3 {
+  margin-bottom: 25px;
+}
+
+.sec4 h4 {
+  margin-top: 15px;
+}
+
+.sec4 h6 {
+  margin-top: 15px;
+}
+
+.sec4 img {
+  width: 80%;
+}
+
+.sec4 p {
+  width: 50%;
+  margin-top: 15px;
+}
+
+.sec5 {
+  margin-bottom: 20px;
+}
+
+.sec5 h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sec5 li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.sec5 li img {
+  width: 15%;
+}
+
+.sec5 li span {
+  margin-left: 10px;
+}
+
+.sec5 p span {
+  display: inline-block;
+  background-color: #616161;
+  color: #fff;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 992px) {
+  .sec2 .card {
+    width: 25%;
+  }
+}
